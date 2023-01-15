@@ -1,4 +1,29 @@
-# NH-Trip
-## NH-Trip：北境云旅，移动端页面，查询旅游民宿，以及民宿详细信息展示
-### 技术栈：Vue3+Vite+pinia+Hooks+less+Vant
-### 项目演示地址：http://8.142.115.219
+# NH-TRIP
+
+This template should help get you started developing with Vue 3 in Vite.
+
+## Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
