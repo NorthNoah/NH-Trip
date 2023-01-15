@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+    <button class="btn">随机数</button>
+  
+    <script>
+        const valueArr = [300, 500, 800, 1200, 1500]
+        const btnEl = document.querySelector(".btn")
+        console.log(btnEl)
+        
+        btnEl.onclick = function() {
+            const curVal = Math.floor(Math.random() * 1500)
+            matchIndex(curVal)
+        }
+        function matchIndex(curVal) {
+            let index = valueArr.length - 1
+            for (let i = 0; i < valueArr.length; i++) {
+                if (valueArr[i] > curVal) {
+                    index = i - 1
+                    // 找到了要立即退出循环，不然最后都会为length-1
+                    break
+                }
+            }
+            if (index === -1) {
+                return
+            }
+            console.log("当前数字为：", curVal, "当前区间为:", index)
+        }
+
+    </script>
+</body>
+</html>
