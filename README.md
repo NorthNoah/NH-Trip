@@ -1,29 +1,15 @@
-# NH-TRIP
+# NH-Trip
+### 项目介绍：NH-Trip北境云旅是一个移动端页面，提供查询旅游民宿，以及民宿详细信息展示等功能
+### 技术栈：Vue3+Vite+pinia+Hooks+less+Vant
+### 项目演示地址：http://8.142.115.219
+### 项目特点
+1. 使用Vant组件库，对轮播图组件进行二次封装
+2. 抽取日期显示，监听滚动等公共组件
+3. 对首页数据展示进行分层请求和节流优化
+4. 详情页使用索引匹配算法进行页面滚动匹配
+5. 二次封装Axios，设置请求和响应拦截器
+6. 详情页继承百度地图，可以获取用户位置信息
+### 项目运行
+1. 依赖安装 npm install
+2. 运行项目 npn run dev
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
